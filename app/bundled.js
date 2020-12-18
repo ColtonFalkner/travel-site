@@ -7,9 +7,9 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-eval("alert(\"hellomah, this is just a test!!!\")\n\n//# sourceURL=webpack://travel-site/./src/index.js?");
+/*!***********************************!*\
+  !*** ./app/assets/scripts/App.js ***!
+  \***********************************/
+eval("alert(\"Hellomah!!!!!\")\n\n//# sourceURL=webpack://travel-site/./app/assets/scripts/App.js?");
 /******/ })()
 ;

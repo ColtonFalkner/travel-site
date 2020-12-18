@@ -1,11 +1,11 @@
 const path = require('path')
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './app/assets/scripts/App.js',
     output: {
-        filename: 'bundled.js',
-        path: path.resolve(__dirname, 'src')
+        filename: 'bundled.js', 
+        path: path.resolve(__dirname, 'app')
     },
-    mode: 'development',
-    watch: true 
+    mode: "development",
+    watch: true
 }
