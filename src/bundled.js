@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("alert(\"hellomah, this is just a test\")\n\n//# sourceURL=webpack://travel-site/./src/index.js?");
+eval("alert(\"hellomah, this is just a test!!!\")\n\n//# sourceURL=webpack://travel-site/./src/index.js?");
 /******/ })()
 ;
