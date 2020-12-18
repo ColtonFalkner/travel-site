@@ -1,1 +1,2 @@
-alert("Hellomah!!!!!")
+import '../styles/styles.css'
+
