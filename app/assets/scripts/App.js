@@ -1,16 +1,14 @@
-import { endsWith } from 'lodash'
 import '../styles/styles.css'
 import 'lazysizes'
-alert('here is a new alert')
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
+
 new StickyHeader()
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75)
 new RevealOnScroll(document.querySelectorAll('.testimonial'), 60)
-let modal
-
 new MobileMenu()
+let modal
 
 document.querySelectorAll('.open-modal').forEach((el) => {
   el.addEventListener('click', (e) => {
@@ -21,7 +19,7 @@ document.querySelectorAll('.open-modal').forEach((el) => {
           modal = new x.default()
           setTimeout(() => modal.openTheModal(), 20)
         })
-        .catch(console.log('There was a problem, my guy.'))
+        .catch(() => console.log('There was a problem.'))
     } else {
       modal.openTheModal()
     }
